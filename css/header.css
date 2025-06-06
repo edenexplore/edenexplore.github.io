@@ -89,39 +89,8 @@
     font-weight: 600;
 }
 
-/* Hero Section 通用样式 */
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) no-repeat center center;
-    background-size: cover;
-    color: white;
-    padding: 120px 0;
-    position: relative;
-}
-
-/* 首页 Hero */
-.hero-section.hero-home {
-    padding: 150px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/zh/images/hero-home.jpg');
-}
-
-/* 服务页 Hero */
-.hero-section.hero-services {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/zh/images/hero-services.jpg');
-}
-
-/* 应用场景页 Hero */
-.hero-section.hero-portfolio {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/zh/images/hero-portfolio.jpg');
-}
-
-/* APP下载页 Hero */
-.hero-section.hero-app {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/zh/images/hero-app.jpg');
-}
-
-/* 联系我们页 Hero */
-.hero-section.hero-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/zh/images/hero-contact.jpg');
+body {
+    padding-top: 70px;
 }
 
 /* 响应式设计 */

@@ -23,6 +23,13 @@
             height: 80px;
             object-fit: cover;
         }
+        .company-image {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .company-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
+        }
     </style>
 </head>
 <body>
@@ -107,11 +114,19 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="./assets/public/images/exhibit.jpg" alt="关于EdenX" class="img-fluid rounded shadow">
+                    <img src="./assets/public/images/exhibit.jpg" alt="关于EdenX" class="img-fluid rounded shadow company-image">
                 </div>
                 <div class="col-lg-6">
-                    <h2>关于伊甸探索</h2>
-                    <p class="lead mb-4">深圳伊甸探索科技有限公司成立于2023年12月22日。经营范围包括人工智能基础软件开发；信息系统集成服务；云计算装备技术服务；软件开发；网络与信息安全软件开发；人工智能理论与算法软件开发；集成电路设计；集成电路销售；集成电路制造；电子产品销售；集成电路芯片及产品销售；集成电路芯片设计及服务；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；信息技术咨询服务；工程和技术研究和试验发展；网络设备销售；光通信设备制造；通信设备销售；移动通信设备销售；货物进出口；技术进出口。</p>
+                    <h2 class="mb-4" style="font-weight: normal;">关于伊甸探索</h2>
+                    <div class="company-intro text-muted" style="line-height: 1.8; font-weight: normal;">
+                        <p class="mb-3">深圳伊甸探索科技有限公司成立于2023年12月22日，是一家专注于科技创新的高新技术企业。</p>
+                        
+                        <p class="mb-3">我们专业从事人工智能基础软件开发、信息系统集成服务、云计算装备技术服务等核心业务。公司在软件开发、网络安全、人工智能算法等领域具有深厚积累，同时在集成电路设计、制造和销售方面拥有完整的产业链。</p>
+                        
+                        <p class="mb-3">我们还提供全方位的技术服务，包括技术开发、咨询、交流、转让及推广，并在信息技术咨询、工程技术研究等方面持续创新。</p>
+                        
+                        <p class="mb-3">公司业务覆盖网络设备、光通信设备、移动通信设备等产品的研发与销售，并开展货物及技术的进出口业务。</p>
+                    </div>
                     <a href="./pages/contact/contact.html" class="btn btn-outline-primary">了解更多</a>
                 </div>
             </div>
@@ -155,8 +170,8 @@
                     <h5>联系我们</h5>
                     <ul class="list-unstyled">
                         <li><i class="bi bi-geo-alt me-2"></i> 深圳市南山区西丽街道松坪山社区松坪山路1号源兴科技大厦一单元北座1172</li>
-                        <li><i class="bi bi-telephone me-2"></i> (021) 1234-5678</li>
-                        <li><i class="bi bi-envelope me-2"></i> info@edenx.com</li>
+                        <li><i class="bi bi-telephone me-2"></i> +86 19129358802</li>
+                        <li><i class="bi bi-envelope me-2"></i> info@edenexplore.com</li>
                     </ul>
                 </div>
             </div>
