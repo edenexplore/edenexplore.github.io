@@ -359,32 +359,7 @@
                     }
                 ]
             });
-            // 添加标记
-            new google.maps.Marker({
-                position: center,
-                map: map,
-                title: "EdenX总部"
-            });
         }
-
-        // 表单提交处理
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('感谢您的留言！我们会尽快与您联系。');
-            this.reset();
-        });
-
-        // 加载Google Maps API
-        function loadGoogleMaps() {
-            const script = document.createElement('script');
-            script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`;
-            script.defer = true;
-            script.async = true;
-            document.head.appendChild(script);
-        }
-
-        // 页面加载完成后加载地图
-        window.onload = loadGoogleMaps;
     </script>
 </body>
 </html>
