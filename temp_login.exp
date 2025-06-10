@@ -1,0 +1,6 @@
+#!/usr/bin/expect -f
+set timeout 20
+spawn ssh -p 22 root@121.37.201.142 "ls -la /"
+expect "password:"
+send "Az123654\r"
+interact
